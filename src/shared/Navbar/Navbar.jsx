@@ -1,7 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ToggleButton from '../ToggleButton/ToggleButton';
+
+
 
 const Navbar = () => {
+
+ 
 
     const menuItems = <>
          <li><Link to='/'> Home</Link></li>
@@ -29,6 +34,8 @@ const Navbar = () => {
       {menuItems}
     </ul>
   </div>
+        
+    <ToggleButton></ToggleButton>
   
 </div>
     );
